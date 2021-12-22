@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  scroll-behavior: smooth;
+}
+.login-froms {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  overflow: scroll;
+  text-align: center;
+}
+
+.Login_from {
+  width: 100%;
+  flex: none;
+}
+
+.Reg_from {
+  flex: none;
+  width: 100%;
+}
+
+.login-froms input {
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: 25px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.login-froms button {
+  width: 25%;
+  margin: 10px;
+  height: 30px;
+}.login-froms::-webkit-scrollbar {
+ display: none;
+}
+.Header {vertical-align: middle;text-align: center;background: #eaeaea;overflow: hidden;}
+
+.logo {
+    width: 30%;
+    float: left;
+    font-size: 34px;
+}
+
+.Header ul {
+    width: 70%;
+    float: left;
+}
+
+.Header ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 30px;
+}
+
+.Header ul li a {
+    text-decoration: none;
+    background: padding-box;
+    padding: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}.Header ul li ul {
+  text-align: center;
+  display: none;
+}
+
+.Header ul li:hover ul {
+  display: block;
+}.post {
+  padding: 20px;
+  border: 2px solid #e8e8e8;
+  margin: 10px;
+}
+.post .images {
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
